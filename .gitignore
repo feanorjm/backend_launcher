@@ -5,3 +5,4 @@ migrations
 /.metadata/
 media
 env_launcher
+.DS_Store
