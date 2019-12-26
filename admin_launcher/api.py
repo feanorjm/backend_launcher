@@ -13,8 +13,6 @@ class BackgroundViewSet(viewsets.ModelViewSet):
     queryset = background.objects.all()
     serializer_class = BackgroundSerializer
 
-
-
 class AppViewSet(viewsets.ModelViewSet):
     authentication_classes = [SessionAuthentication, BasicAuthentication]
     permission_classes = [IsAuthenticated]
